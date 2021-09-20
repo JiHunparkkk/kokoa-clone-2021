@@ -1,0 +1,9 @@
+.red-point {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: 50px;
+  right: 15px;
+}

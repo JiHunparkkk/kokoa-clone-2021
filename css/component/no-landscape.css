@@ -1,0 +1,21 @@
+#no-landscape {
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100vw;
+  background-color: var(--yello);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bolder;
+  color: tomato;
+  top: 0;
+  position: fixed;
+}
+
+@media screen and (orientation: portrait) {
+  #no-landscape {
+    display: none;
+  }
+}

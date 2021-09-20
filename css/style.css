@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/*component*/
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/bedge.css";
+@import "component/red-point.css";
+@import "component/icon-raw.css";
+@import "component/alt-screen-header.css";
+@import "component/no-mobile.css";
+@import "component/no-landscape.css";
+
+/*screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2f363e;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
